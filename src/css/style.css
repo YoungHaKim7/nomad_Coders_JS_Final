@@ -1,19 +1,48 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing; border-box;
+  box-sizing;
+  border-box;
   font-family: monospace;
 }
 
-body
-{
+body {
   background: url(../images/web_first_images_release.png);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
 }
 
-main-screen
-{
-  
+.main-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  transform-style: preserve-3d;
+}
+
+.main-screen__earth {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 320px;
+  height: 320px;
+  background: url(../images/map_of_world/map-of-the-world-g69ec16f67_1920.jpg);
+  background-size: cover;
+  background-repeat: repeat-x;
+  border-radius: 50%;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 1), 0 0 50px #4d5e9c;
+  animation: animateEarth 120s linear infinite;
+}
+
+@keyframes animateEarth {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: -1920px 0;
+  }
+
 }
