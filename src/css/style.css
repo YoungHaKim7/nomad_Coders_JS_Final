@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing; border-box;
+  font-family: monospace;
+}
+
+body
+{
+  background: url(../images/web_first_images_release.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+main-screen
+{
+  
+}
