@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing;
-  border-box;
+  box-sizing: border-box;
   font-family: monospace;
 }
 
@@ -19,6 +18,7 @@ body {
   align-items: center;
   min-height: 100vh;
   transform-style: preserve-3d;
+  position: relative;
 }
 
 .main-screen__earth {
@@ -44,5 +44,36 @@ body {
   100% {
     background-position: -1920px 0;
   }
+}
 
+.main-screen__circle {
+  transform-style: preserve-3d;
+  animation: animateText 60s linear infinite;
+}
+
+.main-screen__circle span {
+  transform-style: preserve-3d;
+  position: absolute;
+  top: 150px;
+  left: 160px;
+  background: #fff;
+  color: #35146f;
+  font-size: 3em;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  padding: 5px 11px;
+  animation: animateText 60s linear infinite;
+  transform: rotateY(calc(var(--i) * calc(360deg / 42))) rotateX(calc(var(--i) * calc(360deg / 42))) translateZ(200px);
+  border-top: 2px slid #35146f;
+  border-bottom: 2px slid #35146f;
+}
+
+@keyframes animateText {
+  0% {
+    transform: perspective(1000px) rotateY(360deg) rotateX(15deg) translateY(-30px);
+  }
+
+  100% {
+    transform: perspective(1000px) rotateY(0deg) rotateX(15deg) translateY(-30px);
+  }
 }
