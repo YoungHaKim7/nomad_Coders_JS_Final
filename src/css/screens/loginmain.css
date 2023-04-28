@@ -57,11 +57,31 @@
     border-bottom: 2px slid #35146f;
 }
 
+.main-screen__nomad {
+    transform-style: preserve-3d;
+    position: absolute;
+    top: 150px;
+    left: 360px;
+    background: url(../../images/map_of_world/m.svg);
+    color: #35146f;
+    font-size: 3em;
+    background-size: cover;
+    background-repeat: repeat-x;
+    border-radius: 50%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    padding: 5px 11px;
+    animation: animateText 60s linear infinite;
+    transform: rotateY(calc(var(--i) * calc(360deg / 42))) rotateX(calc(var(--i) * calc(360deg / 42))) translateZ(200px);
+    border-top: 2px slid #35146f;
+    border-bottom: 2px slid #35146f;
+}
+
+
 @keyframes animateText {
     0% {
         transform: perspective(1000px) rotateY(360deg) rotateX(15deg) translateY(-30px);
     }
-
     100% {
         transform: perspective(1000px) rotateY(0deg) rotateX(15deg) translateY(-30px);
     }
