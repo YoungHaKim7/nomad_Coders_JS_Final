@@ -56,9 +56,12 @@ body {
   position: absolute;
   top: 150px;
   left: 160px;
-  background: #fff;
+  background: url(../images/map_of_world/RidiculouslyDetailedMoonPictureInFull-642x642.jpeg);
   color: #35146f;
   font-size: 3em;
+  background-size: cover;
+  background-repeat: repeat-x;
+  border-radius: 50%;
   transform-origin: center;
   transform-style: preserve-3d;
   padding: 5px 11px;
