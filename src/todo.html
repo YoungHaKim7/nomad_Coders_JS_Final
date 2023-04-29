@@ -6,16 +6,34 @@
     <title>Rotating Text Around The Earth</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+<header class="header_top">
+    <div class="clock">
+        <h6 class="clock-NY-est">NewYork🇺🇸</h6> 
+        <h6 class="clock-EU-est">Germany🇺🇸</h6> 
+        <h6 class="clock-korea">Korea🇰🇷</h6> 
+    </div>
+</header>
 
 <body>
     <div class="screen1">
         <section class="main-screen">
-            <div class="main-screen__earth">
-                <div class="main-screen__circle">
-                </div>
+            <div class="todo-screen__earth">
             </div>
         </section>
     </div>
+    <div class="todo-main">
+        <h2 class="title"></h2>
+        <h1 class="todo-list-title">📱 이번 주 체크할 주요일정</h1>
+        <form id="todo-form">
+            <input type="text" placeholder="Write a To Do and Press Enter!" required>
+        </form>
+        <li id="todo-list">오늘의 할일을 입력 한 후  Enter엔터를 눌러주세요 ↑↑↑</li>
+    </div>
+
+</body>
+<script src="js/clock.js"></script>
+<script src="js/toDo.js"></script>
+
 
 
 

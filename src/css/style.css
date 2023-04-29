@@ -4,6 +4,10 @@
 @import "screens/login.css";
 @import "screens/variables.css";
 @import "screens/screen1.css";
+@import "mobile_css/todomain.css";
+@import "pc_todo_css/todoearth.css";
+@import "screens/todo.css";
+@import "screens/clock.css";
 
 * {
   box-sizing: border-box;
