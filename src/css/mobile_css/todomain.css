@@ -1,11 +1,38 @@
- @media (max-width: 500px) { 
+ @media (max-width: 600px) { 
+
+    .todo-screen__earth {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80px;
+        height: 80px;
+        background: url(../../images/map_of_world/map-of-the-world-g69ec16f67_1920.jpg);
+        background-size: cover;
+        background-repeat: repeat-x;
+        border-radius: 50%;
+        box-shadow: inset 0 0 20px rgba(0, 0, 0, 1), 0 0 50px #4d5e9c;
+        animation: animateEarth 120s linear infinite;
+    }
+
+
+    @keyframes animateEarth {
+        0% {
+            background-position: 0 0;
+        }
+
+        100% {
+            background-position: -1920px 0;
+        }
+    }
+
     .clock {
     display: flex;
     justify-content: space-around;
     margin : 0px 10px;
     margin-left: 20px;
     color: aliceblue;
-    font-size: 16px;
+    font-size: 18px;
     }
 
 }
