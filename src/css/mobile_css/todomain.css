@@ -35,4 +35,14 @@
     font-size: 18px;
     }
 
+
+    .screen1 {
+        width: 100px;
+        height: 80px;
+        position: absolute;
+        top: -240px;
+        left: -50px;
+        z-index: -99;
+}
+
 }
