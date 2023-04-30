@@ -1,0 +1,14 @@
+.element,
+.element--latestNews,
+.header,
+.header--small,
+.primary,
+.secondary,
+.latestNews__wrapper,
+.j-scrollViewport,
+.latestNews,
+.j-scrollElement {
+  font-size: 20px;
+  color: var(--font-color);
+  margin-top: 20px;
+}

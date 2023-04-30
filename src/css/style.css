@@ -10,6 +10,7 @@
 @import "screens/clock.css";
 @import "screens/weather.css";
 @import "screens/gotop.css";
+@import "screens/news.css";
 
 
 * {
