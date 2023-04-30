@@ -34,4 +34,5 @@
   justify-content: center;
   font-size : 30px;
   color: var(--font-color);
+  background-color: rgba(31, 29, 29, 0.6);
 }

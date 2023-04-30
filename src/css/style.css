@@ -8,6 +8,9 @@
 @import "pc_todo_css/todoearth.css";
 @import "screens/todo.css";
 @import "screens/clock.css";
+@import "screens/weather.css";
+@import "screens/gotop.css";
+
 
 * {
   box-sizing: border-box;

@@ -6,6 +6,8 @@
   color: aliceblue;
   font-size: 44px;
   font-weight: 600px;
+  position: fixed;
+  background-color: rgba(31, 29, 29, 0.6);
 }
 
 .clock-korea {
