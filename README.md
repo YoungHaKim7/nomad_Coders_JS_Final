@@ -15,3 +15,8 @@ https://www.nasa.gov/topics/humans-in-space
 # 3D Rotating Text Around The Earth | CSS Animation Effects
 
 https://youtu.be/pKYckdWekv4
+
+
+# only CSS html
+
+https://gosnippets.com/snippets/sun-earth-rotation-animation-with-html-and-css
